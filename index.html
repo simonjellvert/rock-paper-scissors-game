@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rock, Paper, Scissor Game">
+    <meta name="keywords" content="grock paper scissor, game">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock, Paper, Scissors Game</title>
+    <title>Rock Paper Scissor Game</title>
 </head>
-
 <body>
+    <h1 class="heading">Rock Paper Scissor Game</h1>
     
+    <div class="game-area">
+        
+        <div class="rules-area">
+            <p><b>Rules!</b> are simpel:<br>
+            Rock wins over scissor, scissor wins over paper and paper wins over rock.
+            <br>Your mission is to win against the computer in best of 3 games.<br>Good Luck!</p>
+        </div>
+
+        <div class="controls-area">
+            <button id="rock"></button>
+            <button id="paper"></button>
+            <button id="scissor"></button>
+        </div>
+
+    </div>
+
+    <div class="score-area">
+        <p class="scores">Your Score: <span id="score">0</span></p>
+        <p class="scores">Computers Score: <span id="computer-score">0</span></p>
+    </div>
+
+    <footer>Created By Simon Jellvert</footer>
 
     <script src="assets/js/script.js"></script>
 </body>
-
 </html>
