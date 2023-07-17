@@ -4,37 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rock, Paper, Scissor Game">
-    <meta name="keywords" content="grock paper scissor, game">
+    <meta name="description" content="Rock, Paper, Scissors Game">
+    <meta name="keywords" content="rock paper scissors, game">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock Paper Scissor Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors Game</title>
 </head>
 <body>
-    <h1 class="heading">Rock Paper Scissor Game</h1>
+    <h1 class="heading">Rock Paper Scissors Game</h1>
     
+        <div class="rules">
+            <p><strong>The Rules!</strong> are simpel:<br>
+            Rock wins over scissors, scissors wins over paper and paper wins over rock.
+            <br><br>Your mission is to win against the computer.<br><br>Good Luck!</p>
+        </div>
     <div class="game-area">
+
+        <p>Choose your play:</p>
         
-        <div class="rules-area">
-            <p><b>Rules!</b> are simpel:<br>
-            Rock wins over scissor, scissor wins over paper and paper wins over rock.
-            <br>Your mission is to win against the computer in best of 3 games.<br>Good Luck!</p>
+        <div class="controls">
+            <button id="selection" data-type="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
+            <button id="selection" data-type="paper"><i class="fa-regular fa-hand"></i></button>
+            <button id="selection" data-type="scissors"><i class="fa-regular fa-hand-scissors fa-rotate-90"></i></button>
         </div>
 
-        <div class="controls-area">
-            <button id="rock"></button>
-            <button id="paper"></button>
-            <button id="scissor"></button>
+        <p>Result:</p>
+
+        <div class="result">
+            <div class="user">
+                <p>You:</p>
+            </div>
+            <div class="computer">
+                <p>Computer:</p>
+            </div>
+            <div class="result-winner"><i class="fa-regular fa-hand-back-fist"></i></div>
+            <div class="result-loser"><i class="fa-regular fa-hand-scissors fa-rotate-90"></i></div>
         </div>
 
     </div>
 
     <div class="score-area">
-        <p class="scores">Your Score: <span id="score">0</span></p>
-        <p class="scores">Computers Score: <span id="computer-score">0</span></p>
+        <p class="user-score">Your Score: <span id="score">0</span></p>
+        <p class="computer-score">Computers Score: <span id="computer-score">0</span></p>
     </div>
 
-    <footer>Created By Simon Jellvert</footer>
+    <footer>
+        <div class="footer">This Game Is Created By: Simon Jellvert</div>
+    </footer>
 
     <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5497956e76.js" crossorigin="anonymous"></script>
 </body>
 </html>
