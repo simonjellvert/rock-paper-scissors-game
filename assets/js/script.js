@@ -20,8 +20,10 @@ function runGame(playerChoice) {
         (playerChoice === "scissors" && computerChoice === "paper")
     ) {
         alert("You win!");
+        incrementPlayerScore();
     } else {
         alert("Computer Wins!");
+        incrementComputerScore();
     }
 }
 
@@ -37,10 +39,12 @@ function compareChoice() {
 
 }
 
-function incrementWin() {
-
+function incrementPlayerScore() {
+    let oldScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore;
 }
 
-function incrementLoss() {
-
+function incrementComputerScore() {
+    let oldScore = parseInt(document.getElementById("computer-score").innerText);
+    document.getElementById("computer-score").innerText = ++oldScore;
 }
