@@ -29,6 +29,12 @@ function runGame(playerChoice) {
         document.querySelector(".playerchoice").classList.add("lose");
         document.querySelector(".computerchoice").classList.add("win");
     }
+
+    setTimeout(() => {
+        document.querySelector(".playerchoice").className = "playerchoice";
+        document.querySelector(".computerchoice").className = "computerchoice";
+    }, 1000);
+
 }
 
 function computerPlay() {
