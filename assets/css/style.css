@@ -49,7 +49,6 @@ button {
 
 button:hover {
     transform: scale(1.2);
-
 }
 
 .result {
@@ -63,7 +62,7 @@ button:hover {
     margin-bottom: 15px;
 }
 
-.user {
+.player {
     margin-left: 0;
     width: 50%;
 }
@@ -73,15 +72,51 @@ button:hover {
     width: 50%;
 }
 
-.result-winner {
+.playerchoice {
+    margin-left: 0;
+    width: 100%;
     font-size: 200%;
-    color: green;
+    font-weight: 50%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
-.result-loser {
+.computerchoice {
+    margin-right: 0;
+    width: 100%;
     font-size: 200%;
-    color: red;
+    font-weight: 50%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
 }
+
+.win {
+    font-size: 200%;
+    font-weight: 50%;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.lose {
+    font-size: 200%;
+    font-weight: 50%;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.tie {
+    font-size: 200%;
+    font-weight: 50%;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
 
 .score-area {
     background-color: lightgray;
