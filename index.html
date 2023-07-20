@@ -23,19 +23,26 @@
         <p>Choose your play:</p>
         
         <div class="controls">
-            <button id="selection" data-selection="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
-            <button id="selection" data-selection="paper"><i class="fa-regular fa-hand"></i></button>
-            <button id="selection" data-selection="scissors"><i class="fa-regular fa-hand-scissors fa-rotate-90"></i></button>
+            <button class="selection" data-selection="rock"><i class="fa-regular fa-hand-back-fist"></i></button>
+            <button class="selection" data-selection="paper"><i class="fa-regular fa-hand"></i></button>
+            <button class="selection" data-selection="scissors"><i class="fa-regular fa-hand-scissors"></i></button>
         </div>
 
         <p>Result:</p>
 
         <div class="result">
-            <div class="user">
+            <div class="player">
                 <p>You:</p>
+                <i class="fas fa-hand-rock"></i>
+                <div class="player winner">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
             </div>
             <div class="computer">
                 <p>Computer:</p>
+                <div class="computer winner">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
             </div>
             <!-- <div class="result-winner"><i class="fa-regular fa-hand-back-fist"></i></div>
             <div class="result-loser"><i class="fa-regular fa-hand-scissors fa-rotate-90"></i></div> -->
