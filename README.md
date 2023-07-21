@@ -29,8 +29,11 @@ The website has a header that tells the
 
 ![Screenshot of footer]()
 
-### **Contact page**
+### **Favicon**
 
+Favicon added to the tab to add to the UX.
+
+![Screenshot of the favicon]()
 
 ### **Features for the future**
 
