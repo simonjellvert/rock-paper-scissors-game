@@ -51,18 +51,23 @@ Here are some of the features that will be added in the future:
 The **HTML** code is tested in W3 Validator.
 
 
-Result
+Result:
 ![Screenshot of W3 validator]()
 
 The **CSS** code is tested in Jigsaw Validator.
 
-_Result;_
+Result:
 ![Screenshot of result from Jigsaw CSS Validator]()
 
 The **Javascript** code is tested in JSHint.
 
-_Result;_
+Result:
 ![Screenshot of result from Jigsaw CSS Validator]()
+
+The **Lighthouse** testing went well and scored high numbers. At first I was a little bit unsure because it showed 79% performance when running the lighthouse in a browser window with 10-12 other tabs open. When I ran it incognito I got other numbers.
+
+Result:
+![Screenshot of result from lighthouse]()
 
 ### **Unfixed bugs**
 
