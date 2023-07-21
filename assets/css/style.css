@@ -224,12 +224,13 @@ footer {
     }
 
     .rules {
-        width: 90%;
+        width: 95%;
         margin-top: 20px;
     }
 
     .game-area {
-        width: 90%;
+        width: 95%;
+        height: 250px;
     }
 
     .result-heading {
@@ -238,15 +239,21 @@ footer {
 
     .result {
         margin-bottom: 20px;
+        height: 100px;
     }
 
     button {
         font-size: 80%;
-        height: 75px;
+        height: 55px;
         width: 75px;
     }
 
     .controls button>i {
+        font-size: 200%;
+    }
+
+    .playerchoice, .computerchoice {
+        height: 50px;
         font-size: 200%;
     }
 
@@ -256,7 +263,7 @@ footer {
     }
 
     .score-area {
-        width: 90%;
+        width: 95%;
     }
 
 }
