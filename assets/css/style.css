@@ -220,17 +220,23 @@ footer {
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 0.85em;
+    }
+
+    p {
+        font-size: 80%;
     }
 
     .rules {
-        width: 95%;
+        width: 99%;
+        height: 120px;
         margin-top: 20px;
     }
 
     .game-area {
-        width: 95%;
-        height: 250px;
+        width: 99%;
+        height: 230px;
+        margin-top: 5px;
     }
 
     .result-heading {
@@ -238,7 +244,7 @@ footer {
     }
 
     .result {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         height: 100px;
     }
 
@@ -264,7 +270,16 @@ footer {
     }
 
     .score-area {
-        width: 95%;
+        width: 99%;
+        height: 45px;
+        margin-top: 5px;
+    }
+
+    .user-score, .computer-score {
+        display: flex;
+        flex-direction: column;
+        vertical-align: middle;
+        justify-content: center;
     }
 
 }
