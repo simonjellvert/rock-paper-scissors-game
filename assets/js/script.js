@@ -45,13 +45,13 @@ function computerPlay() {
 
 function showPlayerHand(playerChoice) {
     const playerHand = document.querySelector(".player-hand i");
-    playerHand.className = `fas fa-hand-${playerChoice}`;
+    playerHand.className = `fa-regular fa-hand-${playerChoice}`;
 
 }
 
 function showComputerHand(computerChoice) {
     const computerHand = document.querySelector(".computer-hand i");
-    computerHand.className = `fas fa-hand-${computerChoice}`;
+    computerHand.className = `fa-regular fa-hand-${computerChoice}`;
 
 }
 
