@@ -252,7 +252,7 @@ footer {
         font-size: 80%;
         color: black;
         height: 55px;
-        width: 75px;
+        width: 85px;
     }
 
     .controls button>i {
@@ -280,6 +280,11 @@ footer {
         flex-direction: column;
         vertical-align: middle;
         justify-content: center;
+    }
+
+    footer {
+        position: relative;
+        margin-top: 20px;
     }
 
 }
