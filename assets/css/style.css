@@ -130,7 +130,6 @@ button:hover {
 
 .win {
     font-size: 300%;
-    font-weight: 50%;
     font-family: 'Mynerve', sans-serif;
     background-color: green;
     border: 2px solid black;
@@ -139,7 +138,6 @@ button:hover {
 
 .lose {
     font-size: 300%;
-    font-weight: 50%;
     font-family: 'Mynerve', sans-serif;
     background-color: red;
     border: 2px solid black;
@@ -148,7 +146,6 @@ button:hover {
 
 .tie {
     font-size: 300%;
-    font-weight: 50%;
     font-family: 'Mynerve', sans-serif;
     background-color: yellow;
     border: 2px solid black;
@@ -219,6 +216,7 @@ footer {
 @media (max-width: 500px) {
     h1 {
         font-size: 1.5em;
+        margin-top: 10px;
     }
 
     h2 {
@@ -226,11 +224,20 @@ footer {
     }
 
     .rules {
-        width: 85%;
+        width: 90%;
+        margin-top: 20px;
     }
 
     .game-area {
-        width: 85%;
+        width: 90%;
+    }
+
+    .result-heading {
+        margin-top: 20px;
+    }
+
+    .result {
+        margin-bottom: 20px;
     }
 
     button {
@@ -249,7 +256,7 @@ footer {
     }
 
     .score-area {
-        width: 85%;
+        width: 90%;
     }
 
 }
