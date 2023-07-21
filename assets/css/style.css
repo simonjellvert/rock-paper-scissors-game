@@ -229,14 +229,14 @@ footer {
 
     .rules {
         width: 99%;
-        height: 120px;
+        height: 150px;
         margin-top: 20px;
     }
 
     .game-area {
         width: 99%;
-        height: 230px;
-        margin-top: 5px;
+        height: 260px;
+        margin-top: 10px;
     }
 
     .result-heading {
@@ -271,8 +271,8 @@ footer {
 
     .score-area {
         width: 99%;
-        height: 45px;
-        margin-top: 5px;
+        height: 55px;
+        margin-top: 10px;
     }
 
     .user-score, .computer-score {
