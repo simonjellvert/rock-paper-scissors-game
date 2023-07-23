@@ -1,8 +1,14 @@
 # Rock Paper Scissors Game
 
-This website is a game for the user to try and beat the computer in rock, paper and scissors.
+Rock, paper, scissors game is an easy and fun game to use in many different situations. For example; My collegues and I often use this game to dicide who's driving to the lunch restaurant, which often leads to a good laugh.
+It is also a good gamebreaker to another game has ended in an equal result.
+
+In this case we don't need a physical person to play the game, instead we are playing against a computer wich is coded to draw a random choise each time we play.
+
+This site is targeted towards both adults and children.
 
 ![Mock up of resposive design on different screen sizes](../assets/images/mock-up_generator_pp2.png)
+_Note that the Mock up generator does not look exactly like the game actually does on the devices shown above._
 
 ---
 
@@ -10,9 +16,9 @@ This website is a game for the user to try and beat the computer in rock, paper 
 
 ### **Header**
 
-The website has a header that tells the
+The website has a header on top of the screen styled with a playful font.
 
-![Screenshot of ]
+![Screenshot of Header]()
 
 ### **Rules Area**
 
