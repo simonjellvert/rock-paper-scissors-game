@@ -2,7 +2,7 @@
 
 This website is a game for the user to try and beat the computer in rock, paper and scissors.
 
-![Mock up of resposive design on different screen sizes](https://imgur.com/c78yuVl)
+![Mock up of resposive design on different screen sizes](../assets/images/mock-up_generator_pp2.png)
 
 ---
 
@@ -10,22 +10,21 @@ This website is a game for the user to try and beat the computer in rock, paper 
 
 ### **Header**
 
-The website has a header that tells the 
+The website has a header that tells the
 
 ![Screenshot of ]
 
 ### **Rules Area**
 
-
 ![Screenshot of rules area]()
 
 ### **Game Area**
+
 Don't forget the 1 sek loading time for the colors to disapear before running a new game.
 
 ![Screenshot of game area]()
 
 ### **Footer**
-
 
 ![Screenshot of footer]()
 
@@ -39,17 +38,13 @@ Favicon added to the tab to add to the UX.
 
 Here are some of the features that will be added in the future:
 
-
 ---
 
 ## Testing
 
-
-
 ### **Validator testing**
 
 The **HTML** code is tested in W3 Validator.
-
 
 Result:
 ![Screenshot of W3 validator]()
@@ -77,8 +72,6 @@ No bugs detected.
 
 ## **Deployment**
 
-
 ---
 
 ## **Credits**
-
