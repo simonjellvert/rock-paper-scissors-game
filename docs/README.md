@@ -36,7 +36,7 @@ This is where the game is played. The player has 3 options: rock, paper and scis
 
 When the player chooses it's play, they do so by clicking the button of the hand they think is going to win over the computer. The computer are coded to choose randomly between the same choices.
 
-![Screenshot of player choise](../assets/images/rps_buttons.png)
+![Screenshot of player choise](../assets/images/rps_buttons.1.png)
 
 ### **3.2 Result**
 
