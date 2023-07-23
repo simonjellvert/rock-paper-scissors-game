@@ -1,3 +1,6 @@
+// Waiting for DOM to finish loading before running game
+// Get the button elements and add event listeners to them
+
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.querySelectorAll(".controls button");
 
@@ -7,6 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+
+/** The run game function that:
+ * Determines winner
+ * Adding divs to result area in html code
+ */
 
 function runGame(playerChoice) {
     const computerChoice = computerPlay();
@@ -37,11 +45,16 @@ function runGame(playerChoice) {
 
 }
 
+/** Function for computer choice
+ * Randomly choosen for rock, paper, scissor */
+
 function computerPlay() {
     const choices = ["rock", "paper", "scissors"];
     const randomIndex = Math.floor(Math.random() * choices.length);
     return choices[randomIndex];
 }
+
+// Function for displaying player and computer hand in  result area
 
 function showPlayerHand(playerChoice) {
     const playerHand = document.querySelector(".player-hand i");
@@ -54,6 +67,8 @@ function showComputerHand(computerChoice) {
     computerHand.className = `fa-regular fa-hand-${computerChoice}`;
 
 }
+
+//Function for incrementing player and computer scores
 
 function incrementPlayerScore() {
     let oldScore = parseInt(document.getElementById("score").innerText);
