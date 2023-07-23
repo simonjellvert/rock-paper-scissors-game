@@ -67,6 +67,10 @@ Favicon added to the tab to add to the UX.
 
 ![Screenshot of the favicon](../assets/images/rps_favicon.png)
 
+### **7. 404-page**
+
+I've added a 404-page to inform the player that they are headed in the wrong direction with a link to the right website.
+
 ---
 
 ## **Features for the future**
@@ -95,11 +99,17 @@ Otherwise the players have had no other feedback.
 ### **Validator testing**
 
 ### **1. HTML**
-The **HTML** code is tested in W3 Validator with no problems detected.
+The **HTML(index)** code is tested in W3 Validator with no problems detected.
 
 Result:
 
 ![Screenshot of W3 validator](../assets/images/rps_html-validator.png)
+
+The **HTML(404-page)** code is also tested in w3 Validator with no problems detected.
+
+Result:
+
+![Screenshot of W3 validator](../assets/images/rps_404-page_validator.png)
 
 ### **2. CSS**
 The **CSS** code is tested in Jigsaw Validator with one warning for the import link from Google fonts.
