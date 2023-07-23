@@ -1,14 +1,14 @@
 # Rock Paper Scissors Game
 
 Rock, paper, scissors game is an easy and fun game to use in many different situations. For example; My collegues and I often use this game to dicide who's driving to the lunch restaurant, which often leads to a good laugh.
-It is also a good gamebreaker to another game has ended in an equal result.
+It is also a good gamebreaker to another games that has ended in an equal result.
 
 In this case we don't need a physical person to play the game, instead we are playing against a computer wich is coded to draw a random choise each time we play.
 
 This site is targeted towards both adults and children.
 
 ![Mock up of resposive design on different screen sizes](../assets/images/mock-up_generator_pp2.png)
-_Note that the Mock up generator does not look exactly like the game actually does on the devices shown above._
+_Note that the Mock up generator does not provide me with the exact design of what the game actually looks like on different devices (tested)._
 
 ---
 
@@ -22,13 +22,13 @@ The website has a header on top of the screen styled with a playful font.
 
 ### **2. Rules Area**
 
-Although this game is commonly known, for thoose who are playing the game for the first time we want them to get familiar with the games rules before starting to play. In the rules-area that information is provided.
+Although this game is commonly known, for those who are playing the game for the first time we want them to get familiar with the rules before starting to play. In the rules area that information is provided.
 
 ![Screenshot of rules area](../assets/images/rps_rules-area.png)
 
 ### **3. Game Area**
 
-This is where the game is played. The player has 3 options: rock, paper and scissors. All of them are created as buttons with a havering effect that makes it visual to the player where the cursor on pointed. Buttons are styled with icons from Font Awesome added with description in text to make more sense.
+This is where the game is played. The player has 3 options: rock, paper and scissors. All of them are created as buttons with a hovering effect that makes it visual to the player where the cursor are pointed. Buttons are styled with icons from Font Awesome added with description in text to make more sense.
 
 ![Screenshot of game area](../assets/images/rps_game-area.png)
 
@@ -40,7 +40,7 @@ When the player chooses it's play, they do so by clicking the button of the hand
 
 ### **3.2 Result**
 
-When the player clicks the button the result of that game is displayed in the results-area. To make the result more visual to the player we added background effect, like this:
+When the player clicks the button the result of that game is displayed in the results area. To make the result more visual to the player we added background effect, like this:
 
 If tie (yellow background):
 
@@ -48,10 +48,7 @@ If tie (yellow background):
 
 If player or computer win (red for loss, green for win):
 
-![Screenshot of a tied game](../assets/images/rps_result-win.png)
-
-When the result is displayed, the background color goes back to it's default color (lightgray) after 1s. At first it was set to 2s but when I tested the game myself I found out that the game is probably played at a faster pace, and when the background color don't have the time to get it's default color the next play won't show it's result along with the win/loss/tie effect.
-
+![Screenshot of a win](../assets/images/rps_result-win.png)
 
 ### **4. Score area**
 
@@ -78,7 +75,7 @@ Here are some of the features that I want to add in the future:
 * Updated background with a more playful design.
 * Updated player choice-buttons with a more playful design.
 * Set a total game decider: first to 3 wins.
-* Add color the score board to visualize who's ahead in the game (green for more wins then oppenent, red for less wins then opponent).
+* Add color the score board to visualize who's ahead in the game (green for more wins than oppenent, red for less wins than opponent).
 * Link more games to footer or menu bar for the player to choose from.
 
 ---
@@ -87,16 +84,18 @@ Here are some of the features that I want to add in the future:
 
 There's been a lot of testing this game to be able to learn both the javascript code, and to learn how to delevop it to make it a good experience for the player.
 
-The javascript was at frst hard to get right. I've used both CI's mini project Love Math's and two youtube videos and combined them to get sort of my own code (credits listed below under "Credits").
+The javascript was at frst hard to get right. I've used both CI's mini project "Love Maths" and two youtube videos and combined them to get sort of my own code (credits listed below under "Credits").
 
-The front end testing was executed by both myself and friends who I let played the game for a couple of minutes and feedback me. Common for all players where that they at first clicked the wrong button to start the game. Instead of clicking the rock, paper, scissors button in the player choise area, they clikced on the button-alike symbols in the results area. That was fixed by changing background in the results area to the same as the rest of the game (lightgray). The player choice buttons are colored white to make it easier for the player to navigate.
+The front end testing was executed by both myself and friends who I let played the game for a couple of minutes and feedback me. Common for all players where that they at first clicked the wrong button to start the game. Instead of clicking the rock, paper, scissors button in the player choise area, they clicked on the button-alike symbols in the results area. That was fixed by changing background in the results area to the same as the rest of the game (lightgray). The player choice buttons are colored white to make it easier for the player to navigate.
 
-Otherwise the players have been satisfied with the game.
+Myself noticed when the result was displayed, the background color went back to it's default color (lightgray) after 2s. I think the game is probably played at a faster pace, and when the background color don't have the time to switch back to it's default color the next play won't show it's result along with the win/loss/tie effect. To fix this I set the effect to only show 1s and tested again with a more satifying result.
+
+Otherwise the players have had no other feedback.
 
 ### **Validator testing**
 
 ### **1. HTML**
-The **HTML** code is tested in W3 Validator.
+The **HTML** code is tested in W3 Validator with no problems detected.
 
 Result:
 
@@ -114,7 +113,7 @@ _Translated: W3C CSS validation results for TextArea (CSS level 3 + SVG). Congra
 _Translated: Imported templates are not reviewed when entering directly or when uploading files_
 
 ### **3. Javascript**
-The **Javascript** code is tested in JSHint.
+The **Javascript** code is tested in JSHint with one warning of a loop that may lead to confusing semantics. The code was inspired by CI's Love Math project, therefore i reckon it's not a prioritised problem to fix.
 
 Result:
 

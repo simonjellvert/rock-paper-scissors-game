@@ -27,6 +27,23 @@ br {
     margin-right: auto;
     margin-top: 20px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.error {
+    background-color: lightgray;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
@@ -228,6 +245,11 @@ footer {
         margin-top: 50px;
     }
 
+    .error {
+        width: 70%;
+        margin-top: 30px;
+    }
+
     .game-area {
         width: 75%;
     }
@@ -253,6 +275,12 @@ footer {
     }
 
     .rules {
+        width: 99%;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .error {
         width: 99%;
         height: 150px;
         margin-top: 20px;
