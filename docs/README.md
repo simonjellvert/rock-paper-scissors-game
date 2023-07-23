@@ -20,7 +20,7 @@ The website has a header that tells the
 ![Screenshot of rules area]()
 
 ### **Game Area**
-
+Don't forget the 1 sek loading time for the colors to disapear before running a new game.
 
 ![Screenshot of game area]()
 
