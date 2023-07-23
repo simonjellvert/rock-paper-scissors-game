@@ -99,14 +99,17 @@ Otherwise the players have been satisfied with the game.
 The **HTML** code is tested in W3 Validator.
 
 Result:
+
 ![Screenshot of W3 validator](../assets/images/rps_html-validator.png)
 
 ### **2. CSS**
 The **CSS** code is tested in Jigsaw Validator with one warning for the import link from Google fonts.
 
 Result:
+
 ![Screenshot of result from Jigsaw CSS Validator](../assets/images/rps_css-validator.png)
 _Translated: W3C CSS validation results for TextArea (CSS level 3 + SVG). Congratulations! No errors have been found_
+
 ![Screenshot of warning in Jigsaw CSS Validator](../assets/images/rps_css-validator_warning.png)
 _Translated: Imported templates are not reviewed when entering directly or when uploading files_
 
@@ -114,12 +117,14 @@ _Translated: Imported templates are not reviewed when entering directly or when 
 The **Javascript** code is tested in JSHint.
 
 Result:
+
 ![Screenshot of result from Jigsaw CSS Validator](../assets/images/rps_jshint.png)
 
 ### **4. Lighthouse**
 The **Lighthouse** testing went well and scored high numbers. At first I was a little bit unsure because it showed 79% performance when running the lighthouse in a browser window with 10-12 other tabs open. When I ran it incognito I got other numbers.
 
 Result:
+
 ![Screenshot of result from lighthouse](../assets/images/rps_lighthouse.png)
 
 ---
