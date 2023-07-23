@@ -12,51 +12,57 @@
     <title>Rock Paper Scissors Game</title>
 </head>
 <body>
+    <!-- Header -->
     <h1 class="heading">Rock Paper Scissors Game</h1>
+
+    <!-- Rules area -->
+    <div class="rules">
+        <p><strong>The Rules!</strong> are simpel:<br>
+        Rock wins over scissors, scissors wins over paper and paper wins over rock.
+        <br><br>Your mission is to win against the computer.<br><br>Good Luck!</p>
+    </div>
     
-        <div class="rules">
-            <p><strong>The Rules!</strong> are simpel:<br>
-            Rock wins over scissors, scissors wins over paper and paper wins over rock.
-            <br><br>Your mission is to win against the computer.<br><br>Good Luck!</p>
-        </div>
+    <!-- Game area -->
     <div class="game-area">
 
-        <h2>Choose your play:</h2>
+    <h2>Choose your play:</h2>
+    <!-- Buttons in Game area -->
+    <div class="controls">
+        <button class="selection" data-selection="rock"><i class="fa-regular fa-hand-back-fist"></i><br>Rock</button>
+        <button class="selection" data-selection="paper"><i class="fa-regular fa-hand"></i><br>Paper</button>
+        <button class="selection" data-selection="scissors"><i class="fa-regular fa-hand-scissors"></i><br>Scissors</button>
+    </div>
         
-        <div class="controls">
-            <button class="selection" data-selection="rock"><i class="fa-regular fa-hand-back-fist"></i><br>Rock</button>
-            <button class="selection" data-selection="paper"><i class="fa-regular fa-hand"></i><br>Paper</button>
-            <button class="selection" data-selection="scissors"><i class="fa-regular fa-hand-scissors"></i><br>Scissors</button>
-        </div>
+    <!-- Results area -->
+    <h2 class="result-heading">Result:</h2>
 
-        <h2 class="result-heading">Result:</h2>
-
-        <div class="result">
-            <div class="player">
-                <p>You:</p>
-                <div class="player-hand">
-                    <div class="playerchoice"><i class="fa-regular fa-hand-rock"></i></div>
-                </div>
-            </div>
-            <div class="computer">
-                <p>Computer:</p>
-                <div class="computer-hand">
-                    <div class="computerchoice"><i class="fa-regular fa-hand-rock"></i></div>
-                </div>
+    <div class="result">
+        <div class="player">
+            <p>You:</p>
+            <div class="player-hand">
+                <div class="playerchoice"><i class="fa-regular fa-hand-rock"></i></div>
             </div>
         </div>
-
+        <div class="computer">
+            <p>Computer:</p>
+            <div class="computer-hand">
+                <div class="computerchoice"><i class="fa-regular fa-hand-rock"></i></div>
+            </div>
+        </div>
     </div>
 
+    </div>
+    <!-- Score Area -->
     <div class="score-area">
         <p class="user-score">Your Score<br><span id="score">0</span></p>
         <p class="computer-score">Computers Score<br><span id="computer-score">0</span></p>
     </div>
 
+    <!-- Footer -->
     <footer>
         <div class="footer">This Game Is Created By: Simon Jellvert</div>
     </footer>
-
+    <!-- Links to Javescript and Fontawesome -->
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/5497956e76.js" crossorigin="anonymous"></script>
 </body>
